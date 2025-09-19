@@ -2,8 +2,6 @@
 
 This repository contains the synthetic data simulation code used in the Green Layer research project to evaluate the energy savings potential of network node sleeping strategies versus hardware upgrades. Full project documentation and analysis are published at [research.greenlayer.net/synthetic-data-simulation](https://research.greenlayer.net/synthetic-data-simulation/).
 
----
-
 ## Workflow
 
 ### 1. Generate traffic profile
@@ -54,8 +52,6 @@ Produces `out/equivalence.csv` with columns:
 - `sleep_cap` : % of nodes allowed to sleep  
 - `saving_pct` : % energy savings vs baseline  
 - `equiv_upgrade_pct` : Upgrade % that yields the same energy consumption  
-
----
 
 ## Inputs & Outputs
 
