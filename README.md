@@ -6,7 +6,7 @@ This repository contains the synthetic data simulation code used in the Green La
 
 ## Workflow
 
-1. Generate traffic profile
+### 1. Generate traffic profile
 
 Run `make_weekly_profile.py` to produce a synthetic weekly profile (`in/traffic_profile_us.csv`):
 
@@ -16,7 +16,7 @@ python3 make_weekly_profile.py
 
 The profile contains hourly values for residential (`res`) and business (`biz`) demand, normalized to `[0,1]`.
 
-2. Run the simulator
+### 2. Run the simulator
 
 Run `simulate.py` to simulate both sleep-cap sweeps and hardware upgrade sweeps: 
 
@@ -41,7 +41,7 @@ See [Experiment Parameters](https://research.greenlayer.net/synthetic-data-simul
 
 Results are written to the `out/` folder as CSVs and JSONs.
 
-3. Compute equivalence
+### 3. Compute equivalence
 
 Run `equivalence.py` to map energy savings from sleep policies to the equivalent hardware upgrade percentage:
 
