@@ -1,0 +1,11 @@
+{
+  "p95_max_link_rho": 0.9648363334790165,
+  "mean_max_link_rho": 0.4994466221489055,
+  "p95_max_link_queue_ms": 27.58125505245234,
+  "total_node_sleeps": 431,
+  "total_node_wakes": 431,
+  "node_flaps_short": 200,
+  "slo_breach_ticks": 569,
+  "avg_sleep_nodes": 9.868551587301587,
+  "avg_alive_capacity_fraction": 0.871325737636324
+}
